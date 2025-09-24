@@ -264,7 +264,7 @@ h6,
   line-height: 1.3; }
 
 .text-20 {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.3; }
 
 .text-18 {
@@ -535,7 +535,7 @@ h6,
 .list-unstyled {
   padding: 0;
   list-style: none;
-  margin: -42px; }
+  margin: -6px; }
 
 .border-bottom--theme {
   border-bottom: var(--style-border-width) solid var(--color-border); }
@@ -2722,7 +2722,7 @@ form textarea {
   margin-block-start: 60px; }
 
 .multicolumn .multicolumn-card {
-  padding: 36px;
+  padding: 51px;
   background-color: var(--color-background);
   border-radius: 10px;
   overflow: hidden;
