@@ -535,7 +535,7 @@ h6,
 .list-unstyled {
   padding: 0;
   list-style: none;
-  margin: 0; }
+  margin: -22px; }
 
 .border-bottom--theme {
   border-bottom: var(--style-border-width) solid var(--color-border); }
