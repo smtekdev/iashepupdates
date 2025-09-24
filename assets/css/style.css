@@ -2230,7 +2230,8 @@ form textarea {
     height: 300px; } }
 
 .text-lists .text-item {
-  --color-foreground: rgba(28, 37, 57, 1); }
+  --color-foreground: rgba(28, 37, 57, 1); 
+}
 
 .text-lists .text-item {
   display: -webkit-box;
@@ -2763,6 +2764,17 @@ form textarea {
 .multicolumn-card:focus .text-lists .text-item,
 .multicolumn-card:hover .text-lists .text-item {
   --color-foreground: rgba(255, 255, 255, 1); }
+.multicolumn-card:hover .heading {
+    color: #fff; /* White */
+}
+.button--secondary .svg-icon-20 {
+  transform: rotate(45deg); /* initial angled arrow */
+  transition: transform 0.3s ease;
+}
+
+.button--secondary:hover .svg-icon-20 {
+  transform: rotate(0deg); /* straight arrow on hover */
+}
 
 .multicolumn-card > .card-icon + .heading {
   -webkit-margin-before: 44px;
