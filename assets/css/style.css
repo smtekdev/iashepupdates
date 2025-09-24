@@ -6,6 +6,18 @@ Author URI: https://themeforest.net/user/spreethemes/portfolio
 Description: Consulo is a creative business consulting Bootstrap 5 template designed for corporate entities and professional businesses.
 Version: 1.0.1
 */
+
+.button--secondary .svg-icon-20 {
+  transform: rotate(45deg); /* initial angled arrow */
+  transition: transform 0.3s ease;
+}
+
+.button--secondary:hover .svg-icon-20 {
+  transform: rotate(0deg); /* straight arrow on hover */
+}
+
+
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -544,7 +556,7 @@ h6,
   height: 100%; }
 
 .mt-100 {
-  margin-top: 100px; 
+  margin-top: 160px; 
  margin-bottom: 100px; 
 }
 
@@ -2766,14 +2778,6 @@ form textarea {
   --color-foreground: rgba(255, 255, 255, 1); }
 .multicolumn-card:hover .heading {
     color: #fff; /* White */
-}
-.button--secondary .svg-icon-20 {
-  transform: rotate(45deg); /* initial angled arrow */
-  transition: transform 0.3s ease;
-}
-
-.button--secondary:hover .svg-icon-20 {
-  transform: rotate(0deg); /* straight arrow on hover */
 }
 
 .multicolumn-card > .card-icon + .heading {
