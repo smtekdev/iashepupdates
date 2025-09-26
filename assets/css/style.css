@@ -1769,7 +1769,7 @@ sticky-header[data-sticky-type="always"] {
 
 @media (max-width: 1600px) {
   .menu-link-main {
-    padding: 28px 20px; } }
+    padding: 28px 14px; } }
 
 @media (max-width: 1365px) {
   .menu-link-main {
