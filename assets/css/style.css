@@ -1163,7 +1163,7 @@ drawer-opener * {
   padding-block-end: calc(var(--header-height) + 60px); }
 
 .slider-card .content-box {
-  max-width: 772px; }
+  max-width: 7000px; }
 
 .slider-card-4 .content-box {
   max-width: 1000px; }
