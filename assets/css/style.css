@@ -2571,7 +2571,7 @@ form textarea {
   --padding: 60px;
   background-color: var(--color-background);
   padding: var(--padding); 
- background-color: #1c2539;
+ background-color: rgba(242, 242, 242, 1);
 
 }
 
